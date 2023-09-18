@@ -4,6 +4,7 @@
 
 layout: default
 menu:
+  logo: logo
   company_name: Bricks
 hero: 
   headline:
