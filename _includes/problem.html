@@ -15,14 +15,14 @@
             </span>
           </div>
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight bg-red-100 rounded p-2 text-gray-900">The problem with current solutions</h2>
-            <p class="mt-4 text-lg text-gray-500">For a tool designed to create, most platforms throw users into a maze of confusing interfaces, leaving them to spend more time figuring things out than actually creating.</p>
+            <h2 class="text-3xl font-bold tracking-tight bg-red-100 rounded p-2 text-gray-900">{{ page.problem.problem_statement.title }}</h2>
+            <p class="mt-4 text-lg text-gray-500">{{ page.problem.problem_statement.description }}</p>
           </div>
         </div>
       </div>
       <div class="mt-12 sm:mt-16 lg:mt-0">
         <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2048&q=80" alt="Inbox user interface">
+          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ page.problem.problem_statement.image.url }}" alt="{{ page.problem.problem_statement.image.alt }}">
         </div>
       </div>
     </div>
@@ -39,8 +39,8 @@
             </span>
           </div>
           <div class="mt-6">
-            <h2 class="text-3xl font-bold tracking-tight bg-indigo-100 rounded p-2 text-gray-900">Simplicity at its core</h2>
-            <p class="mt-4 text-lg text-gray-500">With pre-designed, adaptable themes, set up your landing page in a matter of minutes. Spend more time on your content, and less on setup.</p>
+            <h2 class="text-3xl font-bold tracking-tight bg-indigo-100 rounded p-2 text-gray-900">{{ page.problem.solution_statement.title }}</h2>
+            <p class="mt-4 text-lg text-gray-500">{{ page.problem.solution_statement.description }}</p>
             <div class="mt-6">
               <!-- <a href="#" class="inline-flex rounded-lg bg-indigo-900 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">Get started</a> -->
             </div>
@@ -49,7 +49,7 @@
       </div>
       <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
         <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://www.maglev.dev/assets/maglev/15-screenshot_02.webp?1690327517" alt="Customer profile user interface">
+          <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="{{ page.problem.solution_statement.image.url }}" alt="{{ page.problem.solution_statement.image.alt }}">
           <!-- <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="https://www.maglev.dev/assets/maglev/10-screenshot_02.webp?1690327517" alt="Customer profile user interface"> -->
         </div>
       </div>

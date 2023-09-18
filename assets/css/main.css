@@ -4,3 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .phone-icon {
+    clear: right;
+    float: right;
+    width: 40%;
+  }
+}
